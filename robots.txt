@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Основные страницы
+Allow: /
+Allow: /services/
+Allow: /about/
+Allow: /contact/
+
+# Карта сайта
+Sitemap: https://makvolgroup.ru/sitemap.xml
+
+# Запрещаем индексацию служебных файлов
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /src/
+
+# Время обхода (рекомендуемый интервал для поисковых ботов)
+Crawl-delay: 1

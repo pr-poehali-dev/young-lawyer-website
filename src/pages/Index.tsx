@@ -33,8 +33,8 @@ const Index = () => {
         <div className="max-w-6xl mx-auto text-center">
           <div className="animate-fade-in">
             <h1 className="text-5xl md:text-6xl font-montserrat font-bold text-law-blue mb-6 leading-tight">
-              Молодой юрист<br />
-              <span className="text-law-gray">для вашего бизнеса</span>
+              Профессиональные<br />
+              <span className="text-law-gray">юридические услуги</span>
             </h1>
             <p className="text-xl text-law-gray mb-8 max-w-3xl mx-auto font-open-sans leading-relaxed">
               Современные юридические решения для стартапов и развивающегося бизнеса. 
@@ -58,7 +58,7 @@ const Index = () => {
       <section id="services" className="py-20 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-montserrat font-bold text-law-blue mb-4">Мои услуги</h2>
+            <h2 className="text-4xl font-montserrat font-bold text-law-blue mb-4">Наши услуги</h2>
             <p className="text-xl text-law-gray font-open-sans">Полный спектр юридических услуг для развития вашего дела</p>
           </div>
           
@@ -68,7 +68,7 @@ const Index = () => {
                 <div className="w-16 h-16 bg-law-light rounded-full flex items-center justify-center mx-auto mb-4">
                   <Icon name="Building" size={32} className="text-law-blue" />
                 </div>
-                <CardTitle className="text-xl font-montserrat text-law-blue">Регистрация бизнеса</CardTitle>
+                <CardTitle className="text-xl font-montserrat text-law-blue">Регистрация ООО и ИП</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-law-gray font-open-sans text-center leading-relaxed">
