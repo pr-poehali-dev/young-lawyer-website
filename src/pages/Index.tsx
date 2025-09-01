@@ -13,7 +13,7 @@ const Index = () => {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <Icon name="Scale" size={28} className="text-law-blue" />
-              <span className="text-xl font-montserrat font-bold text-law-blue">ЮрКонсалт</span>
+              <span className="text-xl font-montserrat font-bold text-law-blue">MakvolGroup</span>
             </div>
             <div className="hidden md:flex space-x-8">
               <a href="#home" className="text-law-gray hover:text-law-blue transition-colors font-open-sans">Главная</a>
@@ -225,7 +225,7 @@ const Index = () => {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Icon name="Scale" size={24} className="text-white" />
-                <span className="text-xl font-montserrat font-bold">ЮрКонсалт</span>
+                <span className="text-xl font-montserrat font-bold">MakvolGroup</span>
               </div>
               <p className="text-gray-300 font-open-sans leading-relaxed">
                 Современные юридические решения для вашего бизнеса. 
@@ -259,7 +259,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-gray-600 mt-8 pt-8 text-center text-gray-400 font-open-sans">
-            <p>© 2024 ЮрКонсалт. Все права защищены.</p>
+            <p>© 2024 MakvolGroup. Все права защищены.</p>
           </div>
         </div>
       </footer>
